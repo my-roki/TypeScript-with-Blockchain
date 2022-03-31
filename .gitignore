@@ -1,10 +1,6 @@
-# nodejs module folder
+# nodejs modules folder
 node_modules
 
-# Yarn  Integrity file
-.yarn-integrity
-
-#dotenv enviroment variables file
-.env
+#.env enviroment and variables file
 dst
 
