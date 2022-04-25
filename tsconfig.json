@@ -1,10 +1,11 @@
 {
+  "include": ["src"],
   "compilerOptions": {
-    "target": "ES2015",
-    "module": "commonjs",
-    "sourceMap": true,
-    "outDir": "dst"
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+    "outDir": "build",
+    "esModuleInterop": true,
+    "target": "ES6",
+    "lib": ["ES6", "DOM"],
+    "strict": true,
+    "allowJs": true
+  }
 }
